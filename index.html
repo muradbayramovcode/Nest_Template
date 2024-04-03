@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nest Template</title>
+    <title>Nest</title>
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +16,55 @@
 
 <body>
     <header class="browsecategories">
+        <section class="info">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">Wishlist</a></li>
+                    <li><a href="">Order Tracking</a></li>
+                </ul>
+                <p>Trendy 25silver jewelry, save up 35% off today</p>
+                <ul class="menu">
+                    <li><a href="">Need help? Call Us: <strong> + 1800 900</strong> </a></li>
+                    <select class="country">
+                        <option value="en">English</option>
+                        <option value="fr"><img src="https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg"
+                                alt=""> Français</option>
+                        <option value="de"><img
+                                src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png"
+                                alt=""> Deutsch</option>
+                        <option value="ru"><img
+                                src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png"
+                                alt=""> Pусский</option>
+                    </select>
+                    <select class="exchange">
+                        <option value="">USD</option>
+                        <option value="">INR</option>
+                        <option value="">MBP</option>
+                        <option value="">EU</option>
+                    </select>
+                </ul>
+            </div>
+        </section>
         <section class="compare">
             <div class="container">
                 <div class="logo">
                     <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg" alt="">
                 </div>
                 <form action="">
+                    <select class="category">
+                        <option>All Categories</option>
+                        <option>Milks and Dairies</option>
+                        <option>Wines & Alcohol</option>
+                        <option>Clothing & Beauty</option>
+                        <option>Pet Foods & Toy</option>
+                        <option>Fast food</option>
+                        <option>Baking material</option>
+                        <option>Vegetables</option>
+                        <option>Fresh Seafood</option>
+                        <option>Noodles & Rice</option>
+                        <option>Ice cream</option>
                     </select>
                     <input type="text" placeholder="Search for items...">
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -30,14 +73,17 @@
                     <div class="count">
                         <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-compare.svg"
                             alt="">
+                        <span>3</span>
                         <p>Compare</p>
                     </div>
                     <div class="count">
+                        <span>6</span>
                         <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-heart.svg"
                             alt="">
                         <p>Wishlist</p>
                     </div>
                     <div class="count">
+                        <span>2</span>
                         <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-cart.svg" alt="">
                         <p>Cart</p>
                     </div>
@@ -118,6 +164,11 @@
                     </li>
                     <li><a href="">Contact</a></li>
                 </ul>
+                <div class="support">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-headphone.svg"
+                        alt="">
+                    <p>1900 - 888 <span>24/7 Support Center</span></p>
+                </div>
             </div>
         </section>
     </header>
@@ -601,6 +652,13 @@
                     </ul>
                 </div>
                 <div class="cards">
+                    <div class="green">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-4.png" alt="">
+                        <div class="texts">
+                            <h2>Bring<br> nature into <br> your home</h2>
+                            <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
                     <div class="card">
                         <div class="img">
                             <img class="img1"
@@ -688,41 +746,472 @@
                         <span> Sold: 90/120</span>
                         <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="deals">
+            <div class="container">
+                <div class="title">
+                    <h3>Deals Of The Day</h3>
+                    <p>All Deals <i class="fa-solid fa-angle-right"></i> </p>
+                </div>
+                <div class="cards">
                     <div class="card">
-                        <div class="img">
-                            <img class="img1"
-                                src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-7-1.jpg" alt="">
-                            <img class="img2"
-                                src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-7-2.jpg" alt="">
-                            <div class="icon">
-                                <i class="fa-solid fa-heart"></i>
-                                <i class="fa-solid fa-shuffle"></i>
-                                <i class="fa-solid fa-eye"></i>
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-5.png" alt="">
+                        <div class="deal">
+                            <div class="hours">
+                                <p>358<br>days</p>
+                                <p>06 <br>hours</p>
+                                <p>11 <br>mins</p>
+                                <p>33</p>
+                            </div>
+                            <div class="content">
+                                <h2>Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="by">by <a href="">NestFood</a></span>
+                                <div class="all">
+                                    <span class="price">$32.85 <del>$33.8</del></span>
+                                    <button><i class="fa-solid fa-cart-shopping"></i>Add </button>
+                                </div>
                             </div>
                         </div>
-                        <span class="sale" style="background-color: #3BB77E;">Best Sale</span>
-                        <a class="snack" href="">Hodo Foods</a>
-                        <a class="change" href="">Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g</a>
-                        <div class="ratings">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="card">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-6.png" alt="">
+                        <div class="deal">
+                            <div class="hours">
+                                <p>754<br>days</p>
+                                <p>06 <br>hours</p>
+                                <p>11 <br>mins</p>
+                                <p>33</p>
+                            </div>
+                            <div class="content">
+                                <h2>Perdue Simply Smart Organics Gluten Free</h2>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="by">by <a href="">NestFood</a></span>
+                                <div class="all">
+                                    <span class="price">$24.85<del>$26.8</del></span>
+                                    <button><i class="fa-solid fa-cart-shopping"></i>Add </button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="all">
-                            <span class="price">$238.85 <del>$245.8</del></span>
+                    </div>
+                    <div class="card">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-7.png" alt="">
+                        <div class="deal">
+                            <div class="hours">
+                                <p>1088<br>days</p>
+                                <p>06 <br>hours</p>
+                                <p>11 <br>mins</p>
+                                <p>33</p>
+                            </div>
+                            <div class="content">
+                                <h2>Signature Wood-Fired Mushroom and Caramelized</h2>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="by">by <a href="">NestFood</a></span>
+                                <div class="all">
+                                    <span class="price">$12.85 <del>$13.8</del></span>
+                                    <button><i class="fa-solid fa-cart-shopping"></i>Add </button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="progress"></div>
-                        <span> Sold: 90/120</span>
-                        <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-8.png" alt="">
+                        <div class="deal">
+                            <div class="hours">
+                                <p>330<br>days</p>
+                                <p>06 <br>hours</p>
+                                <p>11 <br>mins</p>
+                                <p>33</p>
+                            </div>
+                            <div class="content">
+                                <h2>Simply Lemonade with Raspberry Juice</h2>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="by">by <a href="">NestFood</a></span>
+                                <div class="all">
+                                    <span class="price">$15.85 <del>$16.8</del></span>
+                                    <button><i class="fa-solid fa-cart-shopping"></i>Add </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        <section class="selling">
+            <div class="container">
+                <div class="cards">
+                    <div class="card">
+                        <h4>Top Selling</h4>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-1.jpg" alt="">
+                            <div class="star">
+                                <p>Nestle Original Coffee <br>-Mate Coffee Creamer</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-2.jpg" alt="">
+                            <div class="star">
+                                <p>Nestle Original Coffee <br>-Mate Coffee Creamer</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-3.jpg" alt="">
+                            <div class="star">
+                                <p>Nestle Original Coffee <br>-Mate Coffee Creamer</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Top Selling</h4>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-4.jpg" alt="">
+                            <div class="star">
+                                <p>Organic Cage-Free Grade A <br>Large Brown Eggs</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-5.jpg" alt="">
+                            <div class="star">
+                                <p>Seeds of Change Organic <br> Quinoa, Brown, & Red Rice</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-6.jpg" alt="">
+                            <div class="star">
+                                <p>Naturally Flavored<br> Cinnamon Vanilla Light <br> Roast Coffee</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Top Selling</h4>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-7.jpg" alt="">
+                            <div class="star">
+                                <p>Pepperidge Farm <br> Farmhouse Hearty White<br> Bread</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-8.jpg" alt="">
+                            <div class="star">
+                                <p>Oroweat Country Buttermilk<br> Bread</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-9.jpg" alt="">
+                            <div class="star">
+                                <p>Nestle Original Coffee <br>-Mate Coffee Creamer</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Top Selling</h4>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-10.jpg" alt="">
+                            <div class="star">
+                                <p>Foster Farms Takeout <br>Crispy Classic Buffalo<br> Wings</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-11.jpg" alt="">
+                            <div class="star">
+                                <p>Angie’s Boomchickapop<br> Sweet & Salty Kettle Corn</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                        <div class="txt">
+                            <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-12.jpg" alt="">
+                            <div class="star">
+                                <p>All Natural Italian-Style<br> Chicken Meatballs</p>
+                                <div class="ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span> (4.0)</span>
+                                </div>
+                                <span class="price">$32.85 <del>$33.8</del></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="daily">
+            <div class="container">
+                <div class="email">
+                    <h2> Stay home & get your daily <br> needs from our shop</h2>
+                    <p>Start You'r Daily Shopping with <span>Nest Mart</span> </p>
+                    <form action="">
+                        <i class="fa-regular fa-paper-plane"></i><input type="email" placeholder="Your emaill address">
+                        <button class="btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-9.png" alt="">
+            </div>
+        </section>
+        <section class="delivery">
+            <div class="container">
+                <div class="boxes">
+                    <div class="box">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-1.svg" alt="">
+                        <div class="all">
+                            <h3>Best prices & <br>offers</h3>
+                            <p>Orders $50 or more</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-2.svg" alt="">
+                        <div class="all">
+                            <h3>Free delivery</h3>
+                            <p>24/7 amazing services</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-3.svg" alt="">
+                        <div class="all">
+                            <h3>Great daily deal</h3>
+                            <p>When you sign up</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-4.svg" alt="">
+                        <div class="all">
+                            <h3>Wide assortment</h3>
+                            <p>Mega Discounts</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-5.svg" alt="">
+                        <div class="all">
+                            <h3>Easy returns</h3>
+                            <p>Within 30 days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <section class="papular">
+            <div class="container">
+                <div class="logo">
+                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg" alt="">
+                    <p>Awesome grocery store website <br> template</p>
+                    <div class="text">
+                        <span><i class="fa-solid fa-location-dot"></i> <strong>Address: </strong>5171 W Campbell Ave
+                            <br>undefined Kent, Utah 53127 United
+                            States</span>
+                        <span><i class="fa-solid fa-headset"></i><strong>Call Us:</strong>(+91) - 540-025-124553</span>
+                        <span><i class="fa-regular fa-paper-plane"></i><strong>Email:</strong>sale@Nest.com</span>
+                        <span><i class="fa-regular fa-clock"></i><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</span>
+                    </div>
+                </div>
+                <ul class="menu">
+                    <li><a href="">Company</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Delivery Information</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Support Center</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+                <ul class="menu">
+                    <h4>Account</h4>
+                    <li><a href="">Sign In</a></li>
+                    <li><a href="">View Cart</a></li>
+                    <li><a href="">My Wishlist</a></li>
+                    <li><a href="">Track My Order</a></li>
+                    <li><a href="">Help Ticket</a></li>
+                    <li><a href="">Shipping Details</a></li>
+                    <li><a href="">Compare products</a></li>
+                </ul>
+                <ul class="menu">
+                    <h4>Corporate</h4>
+                    <li><a href="">Become a Vendor</a></li>
+                    <li><a href="">Affiliate Program</a></li>
+                    <li><a href="">Farm Business</a></li>
+                    <li><a href="">Farm Careers</a></li>
+                    <li><a href="">Our Suppliers</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Promotions</a></li>
+                </ul>
+                <ul class="menu">
+                    <h4>Popular</h4>
+                    <li><a href="">Milk & Flavoured Milk</a></li>
+                    <li><a href="">Butter and Margarine</a></li>
+                    <li><a href="">Eggs Substitutes</a></li>
+                    <li><a href="">Marmalades</a></li>
+                    <li><a href="">Sour Cream and Dips</a></li>
+                    <li><a href="">Tea & Kombucha</a></li>
+                    <li><a href="">Cheese</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="install">
+        </section>
+        <section class="fallow">
+            <div class="container">
+                <p>© 2022, <strong>Nest</strong> - HTML Ecommerce Template <br>All rights reserved</p>
+                <div class="all">
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="txt">
+                            <p>1900 - 6666</p>
+                            <span>Working 8:00 - 22:00</span>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="txt">
+                            <p>1900 - 8888</p>
+                            <span>24/7 Support Center</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="social">
+                    <div class="mobile">
+                        <h6>Follow Us</h6>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <p>Up to 15% discount on your first subscribe</p>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
